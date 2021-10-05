@@ -164,7 +164,11 @@ app.get('/error', function(req,res){
    res.render("error");
 });
 
-app.listen(3000, function(){
+let port = process.env.PORT;
+if(port == null || port == "")
+ port = 3000;
+
+app.listen(port, function(){
     console.log('listening');
 });
 
