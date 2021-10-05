@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/66aa7c98b3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/info.css" />
+    <title>Info</title>
+  </head>
+
+  <body>
+    <div id="main">
+        <div class="nav">
+   <div class="heee">
+      <img src="images/chitkara.png" alt="chitkara" />
+      </div>
+      <h1>Student Info</h1>
+        </div>
+    <div class="cont">
+    <table>
+            <tr>
+                <thread><th>First Name</th></thread>
+                <td><%= Name %></td>
+            </tr>
+            <tr>
+                <thread><th>Email Id</th></thread>
+                <td><%= Email %></td>
+            </tr>
+           <tr> 
+            <thread><th>Number</th></thread>
+            <td><%= Number %></td>
+          </tr>
+          <tr>
+            <thread><th>Entry Time</th></thread>
+            <td><%= Entry %></td>
+          </tr>
+          <tr>
+            <thread><th>Exit Time</th></thread>
+            <td><%= Exit %></td>
+        </tr>
+        <tr>
+            <thread><th>Day</th></thread>
+            <td><%= Day %></td>
+        </tr>
+          <tr>
+            <thread><th>Status</th></thread>
+           <td> <p class="status status-inside"><%= Check %></p></td>
+        </tr>
+    </table>
+    <div>
+        <form action="/info" method ="POST">
+        <button type="submit">Back Home</button>
+    </form>
+      </div>
+    </div>
+    <footer class="footer">
+      <hr />
+      <div class="icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <p class="company-name">ABC &copy; 2021, ALL Rights Reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>

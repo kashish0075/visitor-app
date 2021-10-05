@@ -1,0 +1,168 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+body {
+  font-family: "Ubuntu";
+  padding: 60px;
+  color: white;
+  font-size: 0.9rem;
+  background-color: black;
+  box-sizing: border-box;
+  margin: 0;
+}
+.nav {
+  display: flex;
+  justify-self: center;
+  flex-direction: row;
+}
+h1 {
+  padding-left: 32%;
+  align-items: center;
+}
+img {
+  display: flex;
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+.heee {
+  padding-bottom: 100px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+.cont {
+  padding-top: 50px;
+  padding-left: 420px;
+}
+table {
+  border-collapse: collapse;
+  background-color: transparent;
+  color: white;
+  text-align: left;
+  overflow: hidden;
+  width: 100%;
+}
+
+th {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+td {
+  font-size: 1.1rem;
+  text-align: left;
+  padding: 0.5rem 2rem;
+}
+
+.status {
+  border-radius: 0.2rem;
+  background-color: red;
+  padding: 0.2rem 0.2rem;
+  text-align: center;
+  width: 20%;
+}
+
+.status-inside {
+  background-color: #c8e6c9;
+  color: #388e3c;
+}
+
+.status-outside {
+  background-color: #ffcdd2;
+  color: #c62828;
+}
+
+#footer-bar {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #5f6368;
+  background-color: #f2f2f2;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  line-height: 40px;
+  border-top: 1px solid #e4e4e4;
+}
+
+.footer-left {
+  padding-left: 27px;
+  float: left;
+}
+
+.footer-right {
+  padding-right: 27px;
+  float: right;
+}
+
+.header-footer-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  list-style: none;
+}
+li {
+  text-align: justify;
+}
+button {
+  background-color: blueviolet;
+  color: #fff;
+  padding: 16px 16px;
+  font-size: 125%;
+  border: none;
+  border-radius: 4px;
+  width: 20%;
+}
+
+.footer {
+  position: inherit;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: d;
+  text-align: center;
+  color: #f4f4f4;
+  padding-top: 200px;
+}
+
+.icons {
+  padding-top: 0px;
+}
+
+.icons a {
+  text-decoration: none;
+  font-size: 2rem;
+  margin: 0.5rem;
+  color: #f4f4f4;
+}
+
+.company-name {
+  font-size: 1.6rem;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 70%;
+  }
+}
+@media (max-width: 700px) {
+  #search-box-outer {
+    display: flex;
+    width: auto;
+  }
+}
+@media (min-width: 501px) and (max-width: 768px) {
+  html {
+    font-size: 70%;
+  }
+}

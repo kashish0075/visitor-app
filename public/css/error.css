@@ -1,0 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+body {
+  font-family: "Ubuntu";
+  padding: 60px;
+  color: white;
+  font-size: 0.9rem;
+  background-color: black;
+  box-sizing: border-box;
+  margin: 0;
+}
