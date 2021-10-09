@@ -11,7 +11,7 @@ app.use(express.urlencoded({extended: true}));
 app.set('view engine', 'ejs');
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin-Kashish:creaters123@cluster0.psbwz.mongodb.net/visitordb")
+mongoose.connect("mongodb+srv://{xyz}@cluster0.psbwz.mongodb.net/visitordb")
 .then(() => console.log("DBConnected"))
 .catch((err) => console.log(err));
 
